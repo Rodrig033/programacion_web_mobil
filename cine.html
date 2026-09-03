@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinepolis</title>
+
+     <style>
+        table {
+            border-collapse: collapse; /* Une los bordes de las celdas */
+            width: 50%;
+            margin: 0 auto;
+        }
+        th, td {
+            border: 1px solid #000000; /* Define el borde negro de 1 píxel */
+            padding: 8px;              /* Espacio interno en las celdas */
+            text-align: center;          /* Alineación del texto */
+        }
+        th {
+            background-color: #f2f2f2; /* Color de fondo para los encabezados */
+        }
+
+        .imagen-esquina-izquierda {
+            position: fixed; /* Fija la imagen en la pantalla */
+            left: 20px;     /* Distancia desde la parte derecha */
+            z-index: 1000;   /* Asegura que esté por encima de otros elementos */
+        }
+
+        .imagen-esquina-derecha {
+            position: fixed; /* Fija la imagen en la pantalla */
+            right: 20px;     /* Distancia desde la parte derecha */
+            z-index: 1000;   /* Asegura que esté por encima de otros elementos */
+        }
+
+        .imagen-esquina-izquierda-inferior {
+            position: fixed; /* Fija la imagen en la pantalla */
+            left: 20px;     /* Distancia desde la parte derecha */
+            z-index: 1000;   /* Asegura que esté por encima de otros elementos */
+            bottom: 0;
+        }
+
+        .imagen-esquina-derecha-inferior {
+            position: fixed; /* Fija la imagen en la pantalla */
+            right: 20px;     /* Distancia desde la parte derecha */
+            z-index: 1000;   /* Asegura que esté por encima de otros elementos */
+            bottom: 0;
+        }
+        
+
+    </style>
+
+</head>
+<body>
+
+    
+    <img src="/Users/farid/Documents/codigohtml/fight_club.png" alt="fight_club" width="300px" height="350px" class="imagen-esquina-izquierda">
+    <img src="/Users/farid/Documents/codigohtml/interestellar.png" alt="interestellar" width="300px" height="350" class="imagen-esquina-derecha">
+
+
+    <h1 style="text-align: center;">CINEPOLIS</h1>
+    <hr style="width: 500px;">
+
+    <h2 style="text-align: center;">Películas en cartelera</h2>
+
+    <div style="text-align: center;">
+    <ol style="display: inline-block;">
+        <li>Fight Club</li>
+        <li>Seven</li>
+        <li>Whiplash</li>
+        <li>Interestelar</li>
+        <li>The Social Network</li>
+    </ol>
+    </div>
+
+    <hr style="width: 500px;">
+
+<table>
+      <h2 style="text-align: center;">Horarios y género</h2>
+       <tr>
+        <th>Pelicula</th> <!--Table Header-->
+        <th>Género</th>
+        <th>Horario</th>
+       </tr>
+
+       <tr>
+        <td>Fight Club</td>
+        <td>Thriller</td>
+        <td>8:00 PM</td>
+       </tr>
+
+       <tr>
+        <td>Seven</td>
+        <td>Crimen y misterio</td>
+        <td>7:00 PM</td>
+       </tr>
+
+       <tr>
+        <td>Whiplash</td>
+        <td>Drama</td>
+        <td>2:00 PM</td>
+       </tr>
+
+       <tr>
+        <td>Interestelar</td>
+        <td>Ciencia Ficción</td>
+        <td>5:00 PM</td>
+       </tr>
+
+       <tr>
+        <td>The Social Network</td>
+        <td>Ficción historíca</td>
+        <td>9:00 PM</td>
+       </tr>
+    </table>
+
+    <hr style="width: 500px;">
+
+    <h2 style="text-align: center;">Disfruta de una gran experiencia que te dejará así: </h2>
+    <div style="text-align: center;">
+    <audio src="/Users/farid/Documents/codigohtml/lego_desarmandose.mp3" controls style="display: inline-block;"></audio>
+    </div>
+
+    
+    <br>
+    <div style="text-align: center;">
+    <video src="newyork.mp4" width="640" height="360" controls></video>
+    </div>
+
+    <br>
+    <img src="/Users/farid/Documents/codigohtml/whiplash.png" alt="whiplash" width="300px" height="350px" class="imagen-esquina-izquierda-inferior">
+    <img src="/Users/farid/Documents/codigohtml/seven.png" alt="seven" width="300px" height="350" class="imagen-esquina-derecha-inferior">
+
+</body>
+</html>
