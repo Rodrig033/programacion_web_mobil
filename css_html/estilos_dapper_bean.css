@@ -1,0 +1,71 @@
+body{
+
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: bisque;
+    text-align: left;
+
+}
+
+header{
+
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+main{
+
+    padding: 30px;
+
+}
+
+.galeria{
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.cafeteria{
+
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+
+}
+
+.cafeteria img {
+
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+
+}
+
+.imagenes img {
+
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+
+}
+
+.recuadro {
+
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 0px;
+
+
+}
