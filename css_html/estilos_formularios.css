@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex; /* Uno debajo del otro*/
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 7px;
+    color: #333;
+    font-weight: bold; /* Texto en negritas */
+}
+
+input,
+select,
+button,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 18px; /* Espacio */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checkbox input {
+    width: auto;
+    margin: 0 8px 0 0;
+}
+
+.checkbox label {
+    margin: 0;
+    font-weight: normal;
+}
+
+button {
+    padding: 12px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
