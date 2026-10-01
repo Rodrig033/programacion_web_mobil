@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+    background-color: blue;
+}
+
+
+.figura {
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    animation-name: girarYcrecer;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes girarYcrecer {
+    0%{
+        transform: scale(1.0) rotate(0deg);
+        border-radius: 0%;
+    }
+
+    50%{
+        transform: scale(1.5) rotate(180deg);
+        border-radius: 0%;
+    }
+
+}
