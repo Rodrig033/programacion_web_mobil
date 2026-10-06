@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    padding: 10px;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+main{
+
+    padding: 30px;
+
+}
