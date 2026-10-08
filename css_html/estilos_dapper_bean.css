@@ -51,21 +51,16 @@ main{
 }
 
 .imagenes img {
-
     width: 200px;
-    height: 350px;
+    height: 500px;
     border-radius: 10px;
-
 }
 
 .recuadro {
-
-    background-color: brown;
     color: white;
     padding: 20px;
     width: 500px;
     border-radius: 10px;
     margin: 0px;
-
-
 }
+
