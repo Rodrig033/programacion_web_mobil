@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de porcentaje</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <div class="contenedor-principal">
+        <h1>Barra de progreso</h1>
+
+        <div class="progress-bar-bg">
+            <div id="customBar" class="progress-bar-fill" style="width: 45%;">
+                <span id="customText"></span>
+            </div>
+        </div>
+
+    <button onclick="actualizarBarra(20)">Fijar en 20%</button>
+    <button onclick="actualizarBarra(75)">Fijar en 75%</button>
+    <button onclick="actualizarBarra(100)">Fijar en 100%</button>
+
+    </div>
+
+    <script src="barra.js"></script>
+
+</body>
+</html>

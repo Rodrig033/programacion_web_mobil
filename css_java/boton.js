@@ -48,6 +48,6 @@ function borrar(){
         actualizarPantalla();
 }
 
-function agregarDigito(){
-    
+function agregarDigito(digito){
+
 }
