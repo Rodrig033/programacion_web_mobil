@@ -294,10 +294,10 @@ function mostrarAyuda(){
     mostrarMensaje(
         "Ayuda" +
         "<div class='lista'>" +
-            "<div><span>Botones laterales</span><span>Elegir opción</span></div>" +
-            "<div><span>Verde</span><span>Confirmar</span></div>" +
-            "<div><span>Amarillo</span><span>Borrar</span></div>" +
-            "<div><span>Rojo</span><span>Cancelar</span></div>" +
+            "<div><span>Botones laterales</span><br><span>Elegir opción</span></div>" +
+            "<div><span>Verde -> </span><span>Confirmar</span></div>" +
+            "<div><span>Amarillo -> </span><span>Borrar</span></div>" +
+            "<div><span>Rojo -> </span><span>Cancelar</span></div>" +
         "</div>"
     );
 }
